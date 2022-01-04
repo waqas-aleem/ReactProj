@@ -213,6 +213,11 @@
     font-weight: 700;
      margin-top: 30px;
 }
+.sfproCustom{
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 13px;
+}
 
 .sfpro1{
         font-style: normal;

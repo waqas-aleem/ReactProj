@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from '../assets/Logo.png';
-  import '../mycustomcss.css';
+import mainImage from '../assets/main.png'
+import '../mycustomcss.css';
  
 class Navbar extends Component {
   render() {
@@ -51,8 +52,8 @@ class Navbar extends Component {
         
         </nav>
         </div>
-        <div className="row">
-             <div className="col-md-6 m-auto offset-md-6">
+        <div className="row m-0">
+             <div className="col-md-6 m-auto ">
 
              <p className="mymainfont">
           A few words about this blog platform, Ghost, and how this site was made
@@ -66,8 +67,14 @@ class Navbar extends Component {
 
 
         </div>
-  
-      </div>
+     
+        
+        <img src={mainImage} alt="" className="w-100" />
+           
+         
+       
+     </div>
+     
     );
   }
 }
