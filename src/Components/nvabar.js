@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import logo from '../assets/Logo.png';
+  import '../mycustomcss.css';
+ 
 class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className="container-fluid">
+        <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg  navbar-light navBarBorder ">
+        <a className="navbar-brand navbar-brand mylogo " href="#">
+                <img src={logo} alt="logo" className="mylogo" />
+              </a>
             <button
               className="navbar-toggler"
               type="button"
@@ -18,27 +23,50 @@ class Navbar extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a className="navbar-brand" href="#">
-                LOGO
-              </a>
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
+              
+              <ul className="navbar-nav mb-2 mb-lg-0 ">
+                <li className="nav-item  ">
+                  <a className="nav-link active mycustomlink newyorkfont py-3" aria-current="page" href="#">
+                    BLOG
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Link
+                  <a className="nav-link mycustomlink newyorkfont py-3" href="#">
+                    ABOUT
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link ">Disabled</a>
+                  <a className="nav-link mycustomlink newyorkfont py-3" aria-current="page" href="#">
+                    LINK
+                  </a>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link mycustomlink newyorkfont py-3" href="#">
+                    PROJECTS
+                  </a>
+                </li>
+                 
               </ul>
             </div>
-          </div>
+        
         </nav>
+        </div>
+        <div className="row">
+             <div className="col-md-6 m-auto offset-md-6">
+
+             <p className="mymainfont">
+          A few words about this blog platform, Ghost, and how this site was made
+        </p>
+        <p className="sfmono">
+          Why Ghost (&amp; Figma) instead of Medium, WordPress
+          <br/>or other options?
+        </p>
+             </div>
+
+
+
+        </div>
+  
       </div>
     );
   }
