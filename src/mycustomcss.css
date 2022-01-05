@@ -297,8 +297,28 @@ ul {
     width: 20px;
     font-size: 16px;
     text-align: center;
+   
 }
+.social2 [class*="fa fa-whatsapp"] {
+    background-color: #000;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin: auto 3px;
+    width: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+.mikaFigureCaption{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
 
+}
 .favbelow{
     text-align: center;
     font-weight: 400;

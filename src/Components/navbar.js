@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from '../assets/Logo.png';
 import mainImage from '../assets/main.png'
 import '../mycustomcss.css';
+ import MikaPortion from './MikaPortion.js'
  
 class Navbar extends Component {
   render() {
@@ -72,7 +73,7 @@ class Navbar extends Component {
         <img src={mainImage} alt="" className="w-100" />
            
          
-       
+        <MikaPortion/>
      </div>
      
     );
