@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import image3 from "../assets/image 3.jpg";
 import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
-import content from '../assets/content.jpg'
+import content from '../assets/content.jpg';
+ 
 class MikaPortion extends Component {
   render() {
     return (
@@ -95,6 +96,107 @@ class MikaPortion extends Component {
             </div>
             
           </div>
+          {/*  */}
+          <div className="row">
+      <div className="col-md-6 col-sm-12 newyorkmedium mt-3 m-auto " >
+        <p>
+          Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos. Aliquam quis posuere ligula.
+        </p>
+
+        <p >
+          In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat ante.
+          Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere
+          maximus dui et fringilla. Nulla non volutpat leo.
+        </p>
+        <p className="mycustomhide" >
+          A list looks like this:
+        </p>
+        <ul className="mylist mycustomhide"  >
+          <li> First item in the list</li>
+          <li>Second item in the list lorem ipsum dolor sit amet nunc felis dolor lorem ipsum sit amet</li>
+          <li>Third item in the list</li>
+        </ul>
+        <p >
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis
+          posuere ligula.
+        </p>
+        <p className="mt-5" >
+          Thanks for reading,<br/>
+          Mika
+        </p>
+
+        <p className="sfpro mycustomshow ">Share :</p>
+        <div className="row favbelow  socialbelow"  >
+          <div className="col-4 socialbelow1"  >
+            <span>
+              <i className="fa fa-twitter "></i>
+              <span className="sfpro mycustomhide" > Share on Twitter</span>
+
+
+
+            </span>
+
+
+          </div>
+
+
+
+          <div className="col-4 socialbelow2 ">
+            <span>
+
+              <span className="social">
+                <i className="fa fa-facebook  ">
+                </i>
+              </span>
+              <span className="sfpro mycustomhide" >Share on Facebook</span>
+
+            </span>
+
+
+          </div>
+
+
+
+          <div className="col-4 socialbelow2 " >
+            <span>
+
+              <span className="social">
+                <i className="fa fa-whatsapp  ">
+                </i>
+              </span>
+              <span className="sfpro mycustomhide" >Share on Whatsapp</span>
+
+            </span>
+
+
+          </div>
+
+
+        </div>
+        <div className="sfpro" >
+          <span>Tags:</span>
+          <span className="border-bottom border-2 border-dark">product design</span><span>,</span>
+          <span className="border-bottom border-2 border-dark">culture</span>
+        </div>
+          <div className="container mt-5">
+
+            <div className="row mikaborder">
+
+              <div className="col-md-2 col-sm-2 mt-3">
+                <img src={image3} className="rounded-circle"  alt=""/>
+              </div>
+              <div className="col-md-10"  >
+                <span className="sfpro33">
+                  <b>Mika Matikainen</b> is a Design Founder &amp; Advisor, Berlin School of Creative Leadership Executive MBA
+                  participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder. </span>
+              </div>
+
+            </div>
+          </div>
+
+      </div>
+    </div>
         </div>
           
        

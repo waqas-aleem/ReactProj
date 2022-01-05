@@ -173,7 +173,22 @@
     color: #ffffff;
 
 }
-
+.socialbelow{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+.socialbelow1{
+    padding: 10px;
+    border-right: 1px solid lightgray;
+}
+.socialbelow2{
+    padding: 10px;
+    border-right: 1px solid lightgray;
+    border-radius: 2px;
+}
+.mikaborder{
+    border-top: 1px dashed lightgray;
+}
  @media (max-width:490px)
  {
      .mylogo{
@@ -212,6 +227,12 @@
     font-size: 8px;
     font-weight: 700;
      margin-top: 30px;
+}
+.sfpro33{
+    
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'SF Pro Text';
 }
 .sfproCustom{
     font-family: 'SF Pro Text';
