@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import image3 from "../assets/image 3.jpg";
 import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
 import content from '../assets/content.jpg';
+import group10 from '../assets/Group 10.png';
  
 class MikaPortion extends Component {
   render() {
@@ -199,7 +200,16 @@ class MikaPortion extends Component {
     </div>
         </div>
           
-       
+       <div>
+         <hr className="mt-5 mb-5 "/>
+         <div className="position-relative">
+           
+           <img src={group10} alt=""  className="eyeimg" />      
+          
+         
+         </div>
+         
+       </div>
       </div>
     );
   }

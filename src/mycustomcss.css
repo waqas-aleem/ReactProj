@@ -234,6 +234,11 @@
     font-weight: normal;
     font-family: 'SF Pro Text';
 }
+.eyeimg{
+    position: absolute;
+    top: -50px;
+    left: 47%;
+}
 .sfproCustom{
     font-family: 'SF Pro Text';
     font-weight: 400;
