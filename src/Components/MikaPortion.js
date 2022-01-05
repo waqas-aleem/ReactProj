@@ -3,6 +3,13 @@ import image3 from "../assets/image 3.jpg";
 import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
 import content from '../assets/content.jpg';
 import group10 from '../assets/Group 10.png';
+import r4 from '../assets/Rectangle 4.png';
+import r11 from '../assets/Rectangle 11.png';
+import r10 from '../assets/Rectangle 10.png';
+import r37 from '../assets/Rectangle 37.png';
+import r38 from '../assets/Rectangle 38.png';
+import r39 from '../assets/Rectangle 39.png';
+
  
 class MikaPortion extends Component {
   render() {
@@ -77,7 +84,7 @@ class MikaPortion extends Component {
            
           </div>
         </div>
-        <div className="container text-center">
+        <div className="container ">
           <div className="row">
             <div className="col-md-12">
 
@@ -99,30 +106,30 @@ class MikaPortion extends Component {
           </div>
           {/*  */}
           <div className="row">
-      <div className="col-md-6 col-sm-12 newyorkmedium mt-3 m-auto " >
-        <p>
+      <div className="col-md-6 col-sm-12  mt-3 m-auto " >
+        <p className="newyorkmedium">
           Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
           inceptos himenaeos. Aliquam quis posuere ligula.
         </p>
 
-        <p >
+        <p  className="newyorkmedium">
           In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat ante.
           Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere
           maximus dui et fringilla. Nulla non volutpat leo.
         </p>
-        <p className="mycustomhide" >
+        <p className="mycustomhide newyorkmedium" >
           A list looks like this:
         </p>
-        <ul className="mylist mycustomhide"  >
+        <ul className="mylist mycustomhide newyorkmedium"  >
           <li> First item in the list</li>
           <li>Second item in the list lorem ipsum dolor sit amet nunc felis dolor lorem ipsum sit amet</li>
           <li>Third item in the list</li>
         </ul>
-        <p >
+        <p className="newyorkmedium">
           Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis
           posuere ligula.
         </p>
-        <p className="mt-5" >
+        <p className=" newyorkmedium mt-5" >
           Thanks for reading,<br/>
           Mika
         </p>
@@ -200,8 +207,8 @@ class MikaPortion extends Component {
     </div>
         </div>
           
-       <div>
-         <hr className="mt-5 mb-5 "/>
+       <div className="mt-5">
+         <hr />
          <div className="position-relative">
            
            <img src={group10} alt=""  className="eyeimg" />      
@@ -209,6 +216,68 @@ class MikaPortion extends Component {
          
          </div>
          
+       </div>
+       <div className="container">
+         <div className="row">
+           <div className="col-md-12"> 
+           <p className="mymainfontcustom" >What to read next</p>
+             
+           </div>
+           
+         </div>
+         
+       </div>
+       <div className="container gimages">
+         <div className="row">
+           <div className="col-md-4">
+             <img src={r4} alt="" />
+             <p className="sfpro1">
+          Connecting artificial intelligence with digital product design
+        </p>
+           </div>
+           {/*  */}
+           <div className="col-md-4">
+             <img src={r11} alt="" />
+             <p >
+             Hello world, or, in other words, why this blog exists
+        </p>
+           </div>
+           {/* */}
+           <div className="col-md-4">
+             <img src={r10} alt="" />
+             <p >
+             Here are some things you should know regarding how we work
+        </p>
+           </div>
+
+         </div>
+         <div className="row">
+           <div className="col-md-4">
+             <img src={r37} alt="" />
+             <p className="sfpro1">
+         
+             A few words about this blog platform, Ghost, and how this site was made
+        
+        </p>
+           </div>
+           {/*  */}
+           <div className="col-md-4">
+             <img src={r39} alt="" />
+             <p >
+            
+          Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better
+        
+        </p>
+           </div>
+           {/* */}
+           <div className="col-md-4">
+             <img src={r38} alt="" />
+             <p >
+             How modern remote working tools get along with Old School Cowboy's methods 
+        </p>
+           </div>
+
+         </div>
        </div>
       </div>
     );

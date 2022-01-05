@@ -1,3 +1,8 @@
+.eyeimg{
+    position: absolute;
+    top: -50px;
+    left: 47%;
+}
 .PaddingRightZero{
     
      padding-right:0px;
@@ -189,6 +194,15 @@
 .mikaborder{
     border-top: 1px dashed lightgray;
 }
+.mymainfontcustom {
+    font-family: 'New York Extra Large Regular';
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 44px;
+    text-align: Center;
+    margin-top: 70px;
+}
+
  @media (max-width:490px)
  {
      .mylogo{
@@ -230,15 +244,11 @@
 }
 .sfpro33{
     
-    font-size: 15px;
-    font-weight: normal;
-    font-family: 'SF Pro Text';
+    font-size: 15px !important;
+    font-weight: normal !important;
+    font-family: 'SF Pro Text' important;
 }
-.eyeimg{
-    position: absolute;
-    top: -50px;
-    left: 47%;
-}
+
 .sfproCustom{
     font-family: 'SF Pro Text';
     font-weight: 400;
